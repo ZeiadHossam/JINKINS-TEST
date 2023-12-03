@@ -1,0 +1,700 @@
+import EB_SystemTables_s.*
+
+@Name { EB.TABLE.DEFINITION = TABLE.ID }
+
+EB.TABLE.DEFINITION {
+    TABLE.ID: "MID.FSD.TXNS"
+    ACT.DESC: [
+        {
+            ACT.DESC: "FOR FSD TRANSACTIONS"
+        }
+    ]
+    PRODUCT: "ST"
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "CUSTOMER.ID"
+            DESCRIPTION: "CUSTOMER"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "CUSTOMER"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "HIGHEST.DEBIT.BALANCE"
+            DESCRIPTION: "HIGHEST DEBIT BALANCE"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "AMOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "DATE.HIGHEST.DEBIT.BALANCE"
+            DESCRIPTION: "DATE"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "DATE"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CCY"
+            DESCRIPTION: "CURRENCY"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "CURRENCY"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "FSD.PERCENTAGE"
+            DESCRIPTION: "PERCENTAGE OF FSD USED"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "RATE"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CALCULATED.FSD.AMOUNT"
+            DESCRIPTION: "FSD CALCULATED AMOUNT"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "AMOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "DEBIT.ACCOUNT"
+            DESCRIPTION: "ACCOUNT DEBITED"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ACCOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "GL.CREDIT.ACCOUNT"
+            DESCRIPTION: "GL ACCOUNT CREDITED"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ACCOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "PL.DEBIT.ACCOUNT"
+            DESCRIPTION: "PL ACCOUNT DEBITED"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ACCOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "DEBIT.TXN.REF"
+            DESCRIPTION: "DEBIT TRANSACTION REFERENCE"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "PRODUCT"
+            DESCRIPTION: "PRODUCT"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CATEGORY"
+            DESCRIPTION: "CATEGORY"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "PROCESSED"
+            DESCRIPTION: "PROCESSED"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "TEXT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "PAYOFF"
+            DESCRIPTION: "PAYOFF"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "TEXT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CUSTOMER.SHARE"
+            DESCRIPTION: "Customer Share Amount"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "TEXT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+    ]
+    PREFIX: "ST.MID"
+    FILE.TYPE: "CUS"
+    LINK.TO.WFL: ""
+    NS.OPERATION: "ALL"
+    KEY.FIELD: ""
+    INSERT.LAYOUT: ""
+    ADD.SPECIAL.FIELDS: [
+        {
+            ADD.SPECIAL.FIELDS: ""
+        }
+    ]
+    CLASS.TYPE: ""
+    RULE.NAME: [
+        {
+            RULE.NAME: ""
+            RULE: [
+                {
+                    RULE: ""
+                }
+            ]
+        }
+    ]
+    PGM.TYPE: ""
+    TABLE.OWNER: ""
+    CO.CODE: "EG0011001"
+}

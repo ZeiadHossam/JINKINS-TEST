@@ -1,0 +1,1203 @@
+import EB_Reports_s.*
+
+@Name { ENQUIRY = ENQUIRY }
+
+ENQUIRY {
+    ENQUIRY: "FSD.END.OF.QUARTER"
+    PAGE.SIZE: "4,99"
+    FILE.NAME: "ST.MID.FSD.TXNS"
+    FIXED.SELECTION: [
+        {
+            FIXED.SELECTION: ""
+        }
+    ]
+    FIXED.SORT: [
+        {
+            FIXED.SORT: ""
+        }
+    ]
+    OPEN.BRACKET: [
+        {
+            OPEN.BRACKET: ""
+            SELECTION.FLDS: "DATE.HIGHEST.DEBIT.BALANCE"
+            SEL.LABEL: [
+                {
+                    SEL.LABEL: "Date Highest Debit Balance"
+                }
+            ]
+            SEL.FLD.OPER: "RG"
+            REQUIRED.SEL: ""
+            CLOSE.BRACKET: ""
+            REL.NEXT.FIELD: ""
+        }
+        {
+            OPEN.BRACKET: ""
+            SELECTION.FLDS: "@ID"
+            SEL.LABEL: [
+                {
+                    SEL.LABEL: "Arrangement Number"
+                }
+            ]
+            SEL.FLD.OPER: ""
+            REQUIRED.SEL: ""
+            CLOSE.BRACKET: ""
+            REL.NEXT.FIELD: ""
+        }
+    ]
+    BUILD.ROUTINE: [
+        {
+            BUILD.ROUTINE: ""
+        }
+    ]
+    HEADER: [
+        {
+            HEADER: [
+                {
+                    HEADER: ""
+                }
+            ]
+        }
+    ]
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "@ID"
+            OPERATION: [
+                {
+                    OPERATION: "@ID"
+                }
+            ]
+            COLUMN: "1"
+            LENGTH.MASK: "60L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "ID"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "CUSTOMER.ID"
+            OPERATION: [
+                {
+                    OPERATION: "CUSTOMER.ID"
+                }
+            ]
+            COLUMN: "5"
+            LENGTH.MASK: "10R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Customer ID"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "HIGHEST.DEBIT.BALANCE"
+            OPERATION: [
+                {
+                    OPERATION: "HIGHEST.DEBIT.BALANCE"
+                }
+            ]
+            COLUMN: "10"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Highest Debit Balance"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "DATE.HIGHEST.DEBIT.BALANCE"
+            OPERATION: [
+                {
+                    OPERATION: "DATE.HIGHEST.DEBIT.BALANCE"
+                }
+            ]
+            COLUMN: "15"
+            LENGTH.MASK: "11R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Date Highest Debit Balance"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "CCY"
+            OPERATION: [
+                {
+                    OPERATION: "CCY"
+                }
+            ]
+            COLUMN: "20"
+            LENGTH.MASK: "3R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Currency"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "FSD.PERCENTAGE"
+            OPERATION: [
+                {
+                    OPERATION: "FSD.PERCENTAGE"
+                }
+            ]
+            COLUMN: "25"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Fsd Percentage"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "CALCULATED.FSD.AMOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "CALCULATED.FSD.AMOUNT"
+                }
+            ]
+            COLUMN: "30"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Calculated Fsd Amount"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "GL.CREDIT.ACCOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "GL.CREDIT.ACCOUNT"
+                }
+            ]
+            COLUMN: "40"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Gl Credit Account"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "PL.DEBIT.ACCOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "PL.DEBIT.ACCOUNT"
+                }
+            ]
+            COLUMN: "45"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Pl Debit Account"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "DEBIT.TXN.REF"
+            OPERATION: [
+                {
+                    OPERATION: "DEBIT.TXN.REF"
+                }
+            ]
+            COLUMN: "50"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Debit Txn Ref"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "PRODUCT"
+            OPERATION: [
+                {
+                    OPERATION: "PRODUCT"
+                }
+            ]
+            COLUMN: "55"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "PRODUCT"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "CATEGORY"
+            OPERATION: [
+                {
+                    OPERATION: "CATEGORY"
+                }
+            ]
+            COLUMN: "60"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Category"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "DATE.TIME"
+            OPERATION: [
+                {
+                    OPERATION: "DATE.TIME"
+                }
+            ]
+            COLUMN: "75"
+            LENGTH.MASK: "15R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Date Time"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "INPUTTER"
+            OPERATION: [
+                {
+                    OPERATION: "INPUTTER"
+                }
+            ]
+            COLUMN: "80"
+            LENGTH.MASK: "100R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Inputter"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "AUTHORISER"
+            OPERATION: [
+                {
+                    OPERATION: "AUTHORISER"
+                }
+            ]
+            COLUMN: "85"
+            LENGTH.MASK: "100R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Authoriser"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "CO.CODE"
+            OPERATION: [
+                {
+                    OPERATION: "CO.CODE"
+                }
+            ]
+            COLUMN: "90"
+            LENGTH.MASK: "11R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Co Code"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "PAYOFF"
+            OPERATION: [
+                {
+                    OPERATION: "@ID"
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: "60L"
+            CONVERSION: [
+                {
+                    CONVERSION: "E 1,12"
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "FEE"
+            OPERATION: [
+                {
+                    OPERATION: "\"-FSDUTYFEE\""
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "TEST"
+            OPERATION: [
+                {
+                    OPERATION: "CALC PAYOFF : FEE"
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: "50R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "FSDUTYFEE"
+            OPERATION: [
+                {
+                    OPERATION: "F TEST"
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: "@ FsdAmountACDEnq"
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Customer.Share-Amount"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "TEST11"
+            OPERATION: [
+                {
+                    OPERATION: "IF FSDUTYFEE EQ 0.00 \"\" FSDUTYFEE"
+                }
+            ]
+            COLUMN: "94"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Customer.Share-Amount"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "Customer.Share-TransRef"
+            OPERATION: [
+                {
+                    OPERATION: "F TEST"
+                }
+            ]
+            COLUMN: "95"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: "@ FsdAAARefEnq"
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "FEE.1"
+            OPERATION: [
+                {
+                    OPERATION: "\"-FSDFEES\""
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "TEST.1"
+            OPERATION: [
+                {
+                    OPERATION: "CALC PAYOFF : FEE.1"
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "PAYOFF"
+            OPERATION: [
+                {
+                    OPERATION: "PAYOFF"
+                }
+            ]
+            COLUMN: "101"
+            LENGTH.MASK: "50R"
+            CONVERSION: [
+                {
+                    CONVERSION: "V 1"
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Payment Order Reference"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "FEE.1"
+            OPERATION: [
+                {
+                    OPERATION: "\"-FSDFEES\""
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: ""
+        }
+        {
+            FIELD.NAME: "TEST.1"
+            OPERATION: [
+                {
+                    OPERATION: "CALC PAYOFF : FEE.1"
+                }
+            ]
+            COLUMN: ""
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: ""
+        }
+        {
+            FIELD.NAME: "PAYOFF"
+            OPERATION: [
+                {
+                    OPERATION: "PAYOFF"
+                }
+            ]
+            COLUMN: "101"
+            LENGTH.MASK: "50R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: "Payment Order Reference"
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: ""
+        }
+    ]
+    ENQUIRY.NAME: [
+        {
+            ENQUIRY.NAME: ""
+            SEL.CRIT: [
+                {
+                    SEL.CRIT: ""
+                }
+            ]
+            LABEL.FIELD: ""
+            NXT.DESC: [
+                {
+                    NXT.DESC: ""
+                }
+            ]
+        }
+    ]
+    SMS.APPLICATION: [
+        {
+            SMS.APPLICATION: ""
+            SMS.ID: ""
+        }
+    ]
+    SMS.ABORT: ""
+    USE.FIELD.NUMBERS: ""
+    CUSTOMER.NO.FLD: ""
+    ACCOUNT.NO.FLD: ""
+    SPOOL.BRK.FLD: [
+        {
+            SPOOL.BRK.FLD: ""
+        }
+    ]
+    DESCRIPT: [
+        {
+            DESCRIPT: [
+                {
+                    DESCRIPT: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    PRODUCT: ""
+    SHORT.DESC: [
+        {
+            SHORT.DESC: ""
+        }
+    ]
+    REAL.TIME.FILES: [
+        {
+            REAL.TIME.FILES: ""
+        }
+    ]
+    COMPANY.SELECT: ""
+    COMP.FOR.ENQ: [
+        {
+            COMP.FOR.ENQ: ""
+        }
+    ]
+    TARGET.APPLICATION: ""
+    ENQUIRY.GRAPH.ID: [
+        {
+            ENQUIRY.GRAPH.ID: ""
+        }
+    ]
+    TOOL.ID: [
+        {
+            TOOL.ID: ""
+            TOOL.TEXT: [
+                {
+                    TOOL.TEXT: ""
+                }
+            ]
+            TOOL.ITEM: [
+                {
+                    TOOL.ITEM: ""
+                }
+            ]
+        }
+    ]
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    EXPOSE.DESC: ""
+    TOOLBAR: ""
+    FILE.VERSION: [
+        {
+            FILE.VERSION: ""
+        }
+    ]
+    POPUP.DROPDOWN.FLD: [
+        {
+            POPUP.DROPDOWN.FLD: ""
+        }
+    ]
+    NO.MANDATORY.SELECTION: ""
+    CO.CODE: "EG0011001"
+}
