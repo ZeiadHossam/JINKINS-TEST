@@ -1,0 +1,40 @@
+Migration and loading of models Projects
+
+Started at 2023.12.05 22:05:16
+Completed at: 2023.12.05 22:05:16
+Took: 0.084s
+Total number of models: 0
+----------------------------------------------------------------------------
+
+Pre Loading and validation of Resources in Standalone Headless 
+
+Started at: 2023.12.05 22:05:16
+Completed at: 2023.12.05 22:05:16
+Took: 0.011s
+Total number of resources: 0
+----------------------------------------------------------------------------
+
+T24 Models (XML): XML for Enquiries Generator 
+
+Started at: 2023.12.05 22:05:16
+Completed at: 2023.12.05 22:05:16
+Took: 0.002s
+Number of models used by this generator: 0
+----------------------------------------------------------------------------
+
+T24 Models (XML): XML for Local Fields (LT/LRT) Generator 
+
+Started at: 2023.12.05 22:05:16
+Completed at: 2023.12.05 22:05:16
+Took: 0.002s
+Number of models used by this generator: 0
+----------------------------------------------------------------------------
+
+T24 Models (XML): XML for Versions Generator 
+
+Started at: 2023.12.05 22:05:16
+Completed at: 2023.12.05 22:05:16
+Took: 0.002s
+Number of models used by this generator: 0
+----------------------------------------------------------------------------
+

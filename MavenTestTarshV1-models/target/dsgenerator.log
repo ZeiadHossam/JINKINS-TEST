@@ -1,0 +1,146 @@
+### DSGEN: 2023-12-05 22:04:57,234 INFO  c.o.t.h.T24HeadlessGenStartupCore,58: 2 No of contributor plugin for Setup
+### DSGEN: 2023-12-05 22:04:57,234 INFO  c.o.t.h.T24HeadlessGenStartupCore,61: Contributor plugin came for setup com.temenos.ds.iris.headlessgenstartup
+### DSGEN: 2023-12-05 22:04:57,251 INFO  c.o.t.h.T24HeadlessGenStartupCore,65: Calling setup for com.temenos.ds.iris.headlessgenstartup plugin
+### DSGEN: 2023-12-05 22:04:57,251 INFO  c.t.d.i.h.IRISHeadlessGenStartup,16: Setup method called for IRISHeadlessGenStartup
+### DSGEN: 2023-12-05 22:04:57,281 INFO  c.t.d.i.h.IRISHeadlessGenStartup,18: Setup method RIMDslStandaloneSetup called
+### DSGEN: 2023-12-05 22:04:57,281 INFO  c.o.t.h.T24HeadlessGenStartupCore,61: Contributor plugin came for setup com.temenos.t24.api.headlessgenstartup
+### DSGEN: 2023-12-05 22:04:57,281 INFO  c.o.t.h.T24HeadlessGenStartupCore,65: Calling setup for com.temenos.t24.api.headlessgenstartup plugin
+### DSGEN: 2023-12-05 22:04:57,281 INFO  c.t.t.a.h.APIHeadlessGenStartup,15: Setup method called for APIHeadlessGenStartup
+### DSGEN: 2023-12-05 22:04:57,332 INFO  c.t.t.a.h.APIHeadlessGenStartup,17: Setup method ModelStandaloneSetup called
+### DSGEN: 2023-12-05 22:04:57,361 INFO  c.t.t.a.h.APIHeadlessGenStartup,20: Setup method InventoryDSLStandaloneSetup called
+### DSGEN: 2023-12-05 22:04:57,409 INFO  c.t.t.a.h.APIHeadlessGenStartup,23: Setup method ended for APIHeadlessGenStartup
+### DSGEN: 2023-12-05 22:04:57,424 INFO  c.o.w.core.app.AbstractDSApplication,66: This is the DS Generator version 21.0 (revision: 0dddb9c4719260409bb0e03e07b4700ad70cf3da)
+### DSGEN: 2023-12-05 22:04:57,424 INFO  c.o.w.core.app.AbstractDSApplication,24: Heap stats; used: 76 MB, free: 681 MB, total: 758 MB, max: 1820 MB
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,522: DS Feature Switch: ds.resource.cache.maxsize=-1
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.dataset.cache.enabled=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.gen.xml.failonerror=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.jbc.dssubroutine.enabled=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.bt.iris.disabled=false
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.gen.filteredModels.file=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.core.import.model.releaseIds=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.delta.package.filter.file=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.server.properties.file=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.applications.import.folder=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.applications.import.filterfile=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.applications.invalid.check=false
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.models.import.no.subfolder=false
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.models.import.folder.structure=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.models.import.default.product=NOPROD
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.models.import.default.component=NO_Component
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.import.filteredModels.file=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.application.import.local=false
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.application.import.datafolder=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.models.toImport=
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.domain.jvmtypes=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,522: DS Feature Switch: ds.domain.ecore=1
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.gen.refreshOutputFolders=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.gen.headless.stop=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.gen.memory.autoclean=true
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,522: DS Feature Switch: ds.gen.memory.autoclean.strategy=2
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.gen.fake=false
+### DSGEN: 2023-12-05 22:04:57,432 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.ignoreValidationErrors=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.skipDomainGenerationForIRIS=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.skipRimGenerationForIRIS=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.xtext.builder.free=true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.xtext.builder.parallel=true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.checkInfiniteCallInLogger=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.checkInfiniteCallInLoggerSneakyThrow=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.gen.iris.outdir=null
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.gen.edge.datadir=null
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.gen.auto=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.checkNameConflicts=true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.iris.metadata.selection.fields.only=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.gen.defaultversions=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.gen.data.format=data.eson
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.deploy.eson.connection=DesignStudioInstaller
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.deploy.eson.addNoInputFields=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.gen.data.format.singleByte=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.gen.active.profiles=default
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.gen.activate.profiles=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.iris.useFieldLabelAsName=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.duplicate.model.asWarning=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.import.coreModels.lineReturnChars=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.validation.disabled.in.folders=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.headless.junit.folder=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.show.internal.templates=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.api.generation.test.structure=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.bulkImport.models.csvFilePath=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.bulkImport.modelsAsDataEsons=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.data.eson.multicompany=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.bulkImport.dataEsonsProjectPath=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.data.eson.validations=true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.run.resource.validations=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,573: DS Feature Switch: ds.t24.models.toImport.model=Normal
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.t24.models.toImport.l3.prefixes=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.models.toImport.analysis.skip=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.models.toImport.use.model.importers=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.models.clear.previous.l3.analysis=false
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,553: DS Feature Switch: ds.core.import.model.releaseIds=
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.helper.FeatureSwitches,537: DS Feature Switch: ds.t24.l3.reconciliation.asWarning=true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vendor = Oracle Corporation
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.bundles.defaultStartLevel = 4
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: os.name = Windows 10
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.ws = win32
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.specification.vendor = Oracle Corporation
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.runtime.version = 1.8.0_121-b13
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.instance.area = file:/C:/ProgramData/Jenkins/.jenkins/workspace/Maven Test3/MavenTestTarshV1-models/target/workspace/
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.framework.extensions = 
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.syspath = c:\DS21\t24-binaries\com\temenos\ds\DesignStudioT24-Generator\21.0\ds\plugins
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.compatibility.bootdelegation.default = true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.compatibility.bootdelegation = true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.version = 1.8.0_121
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.bundles = reference:file:org.eclipse.equinox.simpleconfigurator_1.1.200.v20160504-1450.jar@1:start
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.endorsed.dirs = C:\DS21\jdk\jre\lib\endorsed
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.tracefile = C:\ProgramData\Jenkins\.jenkins\workspace\Maven Test3\MavenTestTarshV1-models\target\workspace\.metadata\trace.log
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.specification.name = Java Platform API Specification
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.class.version = 52.0
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.home = C:\DS21\jdk\jre
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.os = win32
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.info = mixed mode
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: os.version = 10.0
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.arch = x86_64
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.version = 25.121-b13
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.framework.shape = jar
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.awt.printerjob = sun.awt.windows.WPrinterJob
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.install.area = file:/C:/DS21/t24-binaries/com/temenos/ds/DesignStudioT24-Generator/21.0/ds/
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.framework = file:/c:/DS21/t24-binaries/com/temenos/ds/DesignStudioT24-Generator/21.0/ds/plugins/org.eclipse.osgi_3.12.0.v20170118-2208.jar
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.framework.useSystemProperties = true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.specification.vendor = Oracle Corporation
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.nl = en_US
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vendor.url = http://java.oracle.com/
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.library.path = C:\DS21\jdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mvn/bin;C:\DS21\jdk/bin;C:\DS21\jdk/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Temenos\3rdParty\AS\jboss-eap-7.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\DS21\jdk\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;.
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.vendor = Oracle Corporation
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.runtime.name = Java(TM) SE Runtime Environment
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.class.path = C:\DS21\t24-binaries\com\temenos\ds\DesignStudioT24-Generator\21.0\ds\plugins\org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.specification.name = Java Virtual Machine Specification
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.specification.version = 1.8
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.io.tmpdir = C:\WINDOWS\TEMP\
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: os.arch = amd64
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.ext.dirs = C:\DS21\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.clean = true
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: java.specification.version = 1.8
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.configuration.area = file:/C:/DS21/t24-binaries/com/temenos/ds/DesignStudioT24-Generator/21.0/ds/configuration/
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,134: osgi.logfile = C:\ProgramData\Jenkins\.jenkins\workspace\Maven Test3\MavenTestTarshV1-models\target\workspace\.metadata\.log
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.core.app.AbstractDSApplication,141: JVM Default locale: en_US, platform encoding: UTF-8
+### DSGEN: 2023-12-05 22:04:57,440 INFO  c.o.w.generation.headless.RunGeneration,74: Preparing workspace meta-data...
+### DSGEN: 2023-12-05 22:04:59,356 INFO  c.o.w.core.app.AbstractDSApplication,24: Heap stats; used: 103 MB, free: 654 MB, total: 758 MB, max: 1820 MB
+### DSGEN: 2023-12-05 22:04:59,356 INFO  c.o.w.core.app.AbstractDSApplication,254: Updating project configurations...
+### DSGEN: 2023-12-05 22:05:00,588 INFO  com.odcgroup.workbench.core,69: Target Platform selected: 21.0.0.20210426164529 (default version). Available versions found: [].
+### DSGEN: 2023-12-05 22:05:00,778 INFO  c.o.w.generation.headless.RunGeneration,24: Heap stats; used: 247 MB, free: 510 MB, total: 758 MB, max: 1820 MB
+### DSGEN: 2023-12-05 22:05:00,778 INFO  c.o.w.generation.headless.RunGeneration,80: Validating model dependencies...
+### DSGEN: 2023-12-05 22:05:00,805 INFO  DSGeneratorTiming,89: Migration and loading of models Projects
+
+### DSGEN: 2023-12-05 22:05:00,805 INFO  DSGeneratorTiming,90: Started at 2023.12.05 22:05:00
+### DSGEN: 2023-12-05 22:05:00,805 INFO  c.o.w.generation.headless.RunGeneration,91: Migrating models...
+### DSGEN: 2023-12-05 22:05:00,825 INFO  c.o.w.generation.headless.RunGeneration,95: Temporarily migrating translations into models...
+### DSGEN: 2023-12-05 22:05:00,825 INFO  c.o.w.generation.headless.RunGeneration,98: Building model projects...
+### DSGEN: 2023-12-05 22:05:00,874 INFO  DSGeneratorTiming,104: Completed at: 2023.12.05 22:05:00
+### DSGEN: 2023-12-05 22:05:00,874 INFO  DSGeneratorTiming,106: Took: 0.079s
+### DSGEN: 2023-12-05 22:05:00,890 INFO  DSGeneratorTiming,107: Total number of models: 0
+### DSGEN: 2023-12-05 22:05:00,890 INFO  DSGeneratorTiming,108: ----------------------------------------------------------------------------
+
+### DSGEN: 2023-12-05 22:05:00,890 INFO  c.o.w.generation.headless.RunGeneration,24: Heap stats; used: 270 MB, free: 487 MB, total: 758 MB, max: 1820 MB
+### DSGEN: 2023-12-05 22:05:00,890 INFO  c.o.w.generation.headless.RunGeneration,129: DS Generator finished successfully and terminates now (total took 3.462s).
