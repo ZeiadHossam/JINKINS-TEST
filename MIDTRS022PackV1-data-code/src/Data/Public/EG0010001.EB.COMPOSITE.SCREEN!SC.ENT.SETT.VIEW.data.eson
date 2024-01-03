@@ -1,0 +1,83 @@
+import EB_SystemTables_s.*
+
+@Name { EB.COMPOSITE.SCREEN = COMPOSITE.SCREEN }
+
+EB.COMPOSITE.SCREEN {
+    COMPOSITE.SCREEN: "SC.ENT.SETT.VIEW"
+    TITLE: [
+        {
+            TITLE: "List of Entitlements"
+        }
+    ]
+    CONTENT.TYPE: [
+        {
+            CONTENT.TYPE: "OPEN.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: "100%,*"
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "ENQ"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: "FRAMEB"
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: "SC.ENT.OVERVIEW.MAIN FILE.VERSION EQ 'LIV NAU'"
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "CLOSE.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: "NO.FRAMES"
+        }
+    ]
+    CO.CODE: "EG0010001"
+}

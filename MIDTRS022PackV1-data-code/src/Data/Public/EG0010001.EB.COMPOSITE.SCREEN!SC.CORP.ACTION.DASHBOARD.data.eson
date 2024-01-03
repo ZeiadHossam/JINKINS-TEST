@@ -1,0 +1,209 @@
+import EB_SystemTables_s.*
+
+@Name { EB.COMPOSITE.SCREEN = COMPOSITE.SCREEN }
+
+EB.COMPOSITE.SCREEN {
+    COMPOSITE.SCREEN: "SC.CORP.ACTION.DASHBOARD"
+    TITLE: [
+        {
+            TITLE: "Corporate Action Dashboard"
+        }
+    ]
+    CONTENT.TYPE: [
+        {
+            CONTENT.TYPE: "OPEN.FRAME"
+            BORDER.SIZE: "0"
+            COLS: ""
+            ROWS: "40%,*"
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "OPEN.FRAME"
+            BORDER.SIZE: ""
+            COLS: "62%,*"
+            ROWS: ""
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "ENQ"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: "TopLeftFrame"
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: "SC.MANAGE.DIARY FILE.VERSION EQ 'LIV NAU'"
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "URL"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: "TopRightFrame"
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: "../html/product/blank.htm"
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: "ENQ"
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "CLOSE.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "OPEN.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: "100%,*"
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "URL"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: "Bottom"
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: "../html/product/blank.htm"
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: "NOENQ"
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "CLOSE.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+        {
+            CONTENT.TYPE: "CLOSE.FRAME"
+            BORDER.SIZE: ""
+            COLS: ""
+            ROWS: ""
+            NAME: ""
+            SCROLLING: ""
+            TARGET: ""
+            CONTENT: ""
+            CONTENT.ARGS: ""
+            FRAME.ATTRIBUTE: [
+                {
+                    FRAME.ATTRIBUTE: ""
+                }
+            ]
+            ITEMS: [
+                {
+                    ITEMS: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    CO.CODE: "EG0010001"
+}

@@ -1,2 +1,0 @@
-INDEX VERSION 1.130+C:\ProgramData\Jenkins\.jenkins\workspace\Maven Test3\MavenTestTarshV1-models\target\workspace\.metadata\.plugins\org.eclipse.jdt.core
-581790540.index
