@@ -1,0 +1,67 @@
+import EB_SystemTables_s.*
+
+@Name { HELPTEXT.MENU = MENU.NAME }
+
+HELPTEXT.MENU {
+    MENU.NAME: "ITSS.MID.IPO"
+    APPLICATION: [
+        {
+            APPLICATION: "ITSS.MID.INPUT"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Input"
+                }
+            ]
+        }
+        {
+            APPLICATION: "ITSS.IPO.ENQUIRIES"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Enquiries"
+                }
+            ]
+        }
+        {
+            APPLICATION: "ITSS.IPO.AUTHORIZE"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Authorization"
+                }
+            ]
+        }
+        {
+            APPLICATION: "ITSS.IPO.PARAMETER"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "IPO Parameter tables"
+                }
+            ]
+        }
+        {
+            APPLICATION: "ITSS.IPO.SERVICES"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "IPO Services"
+                }
+            ]
+        }
+        {
+            APPLICATION: "MID.REVERSE"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Reverse Order"
+                }
+            ]
+        }
+        {
+            APPLICATION: "ITSS.IPO.REFUNDING"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Refunding IPO"
+                }
+            ]
+        }
+    ]
+    DISPL.APPLICATION: ""
+    CO.CODE: "EG0010001"
+}

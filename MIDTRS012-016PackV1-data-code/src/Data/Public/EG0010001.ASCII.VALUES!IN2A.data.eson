@@ -1,0 +1,417 @@
+import ST_Config_s.*
+
+@Name { ASCII.VALUES = ID }
+
+ASCII.VALUES {
+    ID: "IN2A"
+    DEF.VALUE.TBL: "STANDARD.A"
+    LANGUAGE: [
+        {
+            LANGUAGE: "AR"
+            LAN.VALUE.TBL: "ARABIC.A"
+        }
+    ]
+    APPLICATION: [
+        {
+            APPLICATION: "EB.LOOKUP"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "DE.FORMAT.XML"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "CUSTOMER"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: "AR"
+                    APP.USE.VAL: "ARABIC.A"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.EDUCATION.LEVEL"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.RESIDENCE.REGION"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.LEGAL.CODE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.CUST.MAIL"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.FACILITY.PURPOSE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.INSURANCE.TYPE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.IRREGULAR.BASIC"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.IRREGULAR.SECOND"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "MD.DEAL"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.CUSTODIAN.CODE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.VULNERABILITY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.CREDIT.FLAG"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.REGULAR.CUSTOMER"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.CUSTOMER.TYPE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.MONEY.LAUNDRY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.CUST.PURPOSE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.DES.CONFIG"
+            APP.VALUE.TBL: "EB.DES.CONFIG"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "DEAL.SLIP.FORMAT"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.CUSTOMER.GOVERNORATE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.ACCOUNT.PURPOSE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MISR.INSURANCE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "DE.WORDS"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "ENQUIRY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "CURRENCY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.MCDR.CUSTOMER"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.MCDR.NBC"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MCDR.UNI.CUS.DATA"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MCDR.NON.CUS.CPN.DATA"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MCDR.BROKER.DATA"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.ITSS.MCDR.STOCK"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "PP.ORDER.ENTRY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "TELLER"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.MCDR.CURRENCY"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.MID.MCDR.CPN.TEMP"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.CUSTODIAN.UNIFIED.CODE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "PAYMENT.ORDER"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+        {
+            APPLICATION: "DATA.CAPTURE"
+            APP.VALUE.TBL: "ARABIC.A"
+            APP.LANG: [
+                {
+                    APP.LANG: ""
+                    APP.USE.VAL: ""
+                }
+            ]
+        }
+    ]
+    CO.CODE: "EG0010001"
+}

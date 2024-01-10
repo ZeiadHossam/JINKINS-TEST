@@ -1,0 +1,37 @@
+import EB_SystemTables_s.*
+
+@Name { EB.API = KEY }
+
+EB.API {
+    KEY: "MID.IPO.VAL.START.END"
+    DESCRIPTION: [
+        {
+            DESCRIPTION: "Validate the start date must be before the end date"
+        }
+    ]
+    PROTECTION.LEVEL: "FULL"
+    SOURCE.TYPE: "METHOD"
+    JAVA.METHOD: "validateRecord"
+    JAVA.CLASS: "ValidateStartAndEndDate"
+    JAVA.PACKAGE: "itss.mid.ipo"
+    PARAMETER: [
+        {
+            PARAMETER: ""
+            PARAM.DESCRIPTION: ""
+            PARAM.MANDATORY: ""
+        }
+    ]
+    HOOK.DESCRIPTION: [
+        {
+            HOOK.DESCRIPTION: ""
+            HOOK.COMPONENT: ""
+            HOOK.METHOD: ""
+            INVOKE.COMPONENT: ""
+            INVOKE.METHOD: ""
+        }
+    ]
+    COMPONENT: ""
+    METHOD: ""
+    LINK.TO.TEC: ""
+    CO.CODE: "EG0010001"
+}

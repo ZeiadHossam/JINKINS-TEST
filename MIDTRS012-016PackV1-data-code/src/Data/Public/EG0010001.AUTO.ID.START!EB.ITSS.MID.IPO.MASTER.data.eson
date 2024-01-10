@@ -1,0 +1,23 @@
+import EB_SystemTables_s.*
+
+@Name { AUTO.ID.START = KEY }
+
+AUTO.ID.START {
+    KEY: "EB.ITSS.MID.IPO.MASTER"
+    DESCRIPTION: [
+        {
+            DESCRIPTION: "IPO MASTER ID NUMBER"
+        }
+    ]
+    APPLICATION: [
+        {
+            APPLICATION: "EB.ITSS.MID.IPO.MASTER"
+            ID.START: "70000000"
+            UNIQUE.NO: ""
+            BASE.TABLE: ""
+            ID.LENGTH: ""
+        }
+    ]
+    DATABASE.UNIQUE: ""
+    CO.CODE: "EG0010001"
+}

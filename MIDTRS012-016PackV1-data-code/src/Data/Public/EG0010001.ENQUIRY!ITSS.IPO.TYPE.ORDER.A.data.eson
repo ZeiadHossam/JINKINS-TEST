@@ -1,0 +1,191 @@
+import EB_Reports_s.*
+
+@Name { ENQUIRY = ENQUIRY }
+
+ENQUIRY {
+    ENQUIRY: "ITSS.IPO.TYPE.ORDER.A"
+    PAGE.SIZE: "4,20"
+    FILE.NAME: "EB.ITSS.MID.IPO.TYPE.ORDER$NAU"
+    FIXED.SELECTION: [
+        {
+            FIXED.SELECTION: ""
+        }
+    ]
+    FIXED.SORT: [
+        {
+            FIXED.SORT: ""
+        }
+    ]
+    OPEN.BRACKET: [
+        {
+            OPEN.BRACKET: ""
+            SELECTION.FLDS: "@ID"
+            SEL.LABEL: [
+                {
+                    SEL.LABEL: ""
+                }
+            ]
+            SEL.FLD.OPER: "EQ"
+            REQUIRED.SEL: ""
+            CLOSE.BRACKET: ""
+            REL.NEXT.FIELD: ""
+        }
+    ]
+    BUILD.ROUTINE: [
+        {
+            BUILD.ROUTINE: ""
+        }
+    ]
+    HEADER: [
+        {
+            HEADER: [
+                {
+                    HEADER: ""
+                }
+            ]
+        }
+    ]
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "@ID"
+            OPERATION: [
+                {
+                    OPERATION: "@ID"
+                }
+            ]
+            COLUMN: "1"
+            LENGTH.MASK: "60L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+    ]
+    ENQUIRY.NAME: [
+        {
+            ENQUIRY.NAME: "EB.ITSS.MID.IPO.TYPE.ORDER,IPO A @ID"
+            SEL.CRIT: [
+                {
+                    SEL.CRIT: ""
+                }
+            ]
+            LABEL.FIELD: "@ID 1"
+            NXT.DESC: [
+                {
+                    NXT.DESC: "Authorise[txnauthorise.gif"
+                }
+            ]
+        }
+    ]
+    SMS.APPLICATION: [
+        {
+            SMS.APPLICATION: ""
+            SMS.ID: ""
+        }
+    ]
+    SMS.ABORT: ""
+    USE.FIELD.NUMBERS: ""
+    CUSTOMER.NO.FLD: ""
+    ACCOUNT.NO.FLD: ""
+    SPOOL.BRK.FLD: [
+        {
+            SPOOL.BRK.FLD: ""
+        }
+    ]
+    DESCRIPT: [
+        {
+            DESCRIPT: [
+                {
+                    DESCRIPT: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    PRODUCT: ""
+    SHORT.DESC: [
+        {
+            SHORT.DESC: ""
+        }
+    ]
+    REAL.TIME.FILES: [
+        {
+            REAL.TIME.FILES: ""
+        }
+    ]
+    COMPANY.SELECT: ""
+    COMP.FOR.ENQ: [
+        {
+            COMP.FOR.ENQ: ""
+        }
+    ]
+    TARGET.APPLICATION: ""
+    ENQUIRY.GRAPH.ID: [
+        {
+            ENQUIRY.GRAPH.ID: ""
+        }
+    ]
+    TOOL.ID: [
+        {
+            TOOL.ID: ""
+            TOOL.TEXT: [
+                {
+                    TOOL.TEXT: ""
+                }
+            ]
+            TOOL.ITEM: [
+                {
+                    TOOL.ITEM: ""
+                }
+            ]
+        }
+    ]
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    EXPOSE.DESC: ""
+    TOOLBAR: ""
+    FILE.VERSION: [
+        {
+            FILE.VERSION: ""
+        }
+    ]
+    POPUP.DROPDOWN.FLD: [
+        {
+            POPUP.DROPDOWN.FLD: ""
+        }
+    ]
+    NO.MANDATORY.SELECTION: ""
+    CO.CODE: "EG0010001"
+}

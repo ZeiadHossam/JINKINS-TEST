@@ -1,0 +1,866 @@
+import EB_Versions_s.*
+
+@Name { VERSION = PGM.NAME.VERSION }
+
+VERSION {
+    PGM.NAME.VERSION: "EB.ITSS.MID.IPO.TYPE.ORDER,IPO"
+    PRINT.ONLY: ""
+    RECORDS.PER.PAGE: "1"
+    FIELDS.PER.LINE: "MULTI"
+    LANGUAGE.CODE: [
+        {
+            LANGUAGE.CODE: "1"
+        }
+    ]
+    "HDR.1.001..039": [
+        {
+            "HDR.1.001..039": ""
+            "HDR.1.040..078": ""
+            "HDR.1.079..117": ""
+            "HDR.1.118..132": ""
+            "HDR.2.001..039": ""
+            "HDR.2.040..078": ""
+            "HDR.2.079..117": ""
+            "HDR.2.118..132": ""
+        }
+    ]
+    FIELD.NO: [
+        {
+            FIELD.NO: "ITSS.IPO.MASTER"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "ITSS IPO Master"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: "HOT.FIELD"
+                }
+            ]
+        }
+        {
+            FIELD.NO: "IPO.TYPE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "IPO Type"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "TRADE.CCY"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Trade CCY"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "BOOKING.DATE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Booking Date"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "COMPANY.ACCOUNT"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Company Account"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "NUMBER.OF.SHARES"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Number Of Shares"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: "HOT.FIELD"
+                }
+            ]
+        }
+        {
+            FIELD.NO: "CUSTOMER.TYPE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Customer Type"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "CUSTOMER.ACCOUNT"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Customer Account"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "INTERNAL.ACCOUNT"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Internal Account"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: "ITSS.MID.INTER.ACC.IPO"
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "COMPANY.UNIFIED.CODE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Company Unified Code"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "CUSTOMER.UNIFIED.CODE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Customer Unified Code"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "CUSTOMER.NAME-1"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Customer Name"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "NATIONALITY"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Nationality"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "CUSTODIAN.UNIFIED.CODE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Custodian Unified Code"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "TOTAL.COST.OF.SHARES"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Total Cost Of Shares"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "PAYMENT.ORDER.REVERSE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Payment Order Rev"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+    ]
+    RIGHT.ADJ.FIELD: [
+        {
+            RIGHT.ADJ.FIELD: ""
+        }
+    ]
+    REF.NO.IN.1ST.LINE: ""
+    ID.AUTOM.SEQU: [
+        {
+            ID.AUTOM.SEQU: ""
+        }
+    ]
+    NO.OF.AUTH: "2"
+    NOINPUT.FIELD: [
+        {
+            NOINPUT.FIELD: "IPO.TYPE"
+        }
+        {
+            NOINPUT.FIELD: "COMPANY.ACCOUNT"
+        }
+        {
+            NOINPUT.FIELD: "BOOKING.DATE"
+        }
+        {
+            NOINPUT.FIELD: "COMPANY.UNIFIED.CODE"
+        }
+        {
+            NOINPUT.FIELD: "TOTAL.COST.OF.SHARES"
+        }
+    ]
+    NOCHANGE.FIELD: [
+        {
+            NOCHANGE.FIELD: ""
+        }
+    ]
+    REKEY.FIELD.NO: [
+        {
+            REKEY.FIELD.NO: ""
+        }
+    ]
+    AUTOM.FIELD.NO: [
+        {
+            AUTOM.FIELD.NO: ""
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: ""
+        }
+    ]
+    MANDATORY.FIELD: [
+        {
+            MANDATORY.FIELD: ""
+        }
+    ]
+    VALIDATION.FLD: [
+        {
+            VALIDATION.FLD: ""
+            VALIDATION.RTN: ""
+        }
+    ]
+    D.SLIP.FORMAT: [
+        {
+            D.SLIP.FORMAT: ""
+            D.SLIP.FUNCTION: ""
+        }
+    ]
+    D.SLIP.TRIGGER: ""
+    INPUT.ROUTINE: [
+        {
+            INPUT.ROUTINE: "MID.IPO.VAL.CUS.INTER"
+        }
+        {
+            INPUT.ROUTINE: "MID.IPO.VAL.BOOK.DATE"
+        }
+    ]
+    AUTH.ROUTINE: [
+        {
+            AUTH.ROUTINE: "PAYORDER.CUS"
+        }
+        {
+            AUTH.ROUTINE: "PAYORDER.INTERN"
+        }
+        {
+            AUTH.ROUTINE: "ITSS.MID.SET.TOTAL.REQUEST"
+        }
+        {
+            AUTH.ROUTINE: "ITSS.MID.SET.CLIENT.ORDER.DET"
+        }
+    ]
+    REPORT.LOCKS: "YES"
+    GTS.CONTROL: ""
+    DESCRIPTION: [
+        {
+            DESCRIPTION: ""
+        }
+    ]
+    ASSOC.VERSION: [
+        {
+            ASSOC.VERSION: "EB.ITSS.MID.IPO.TYPE.ORDER,AUDIT"
+        }
+    ]
+    NEXT.VERSION: ""
+    INITIAL.CURSOR.POS: ""
+    CAPTION: [
+        {
+            CAPTION: ""
+        }
+    ]
+    EXC.INC.RTN: ""
+    ID.RTN: [
+        {
+            ID.RTN: ""
+        }
+    ]
+    CHECK.REC.RTN: [
+        {
+            CHECK.REC.RTN: "ITSS.MID.SET.DEF.TYPE.DET.IPO"
+        }
+    ]
+    AFTER.UNAU.RTN: [
+        {
+            AFTER.UNAU.RTN: ""
+        }
+    ]
+    BEFORE.AUTH.RTN: [
+        {
+            BEFORE.AUTH.RTN: ""
+        }
+    ]
+    VERSION.TYPE: ""
+    ENABLE.GRID: ""
+    MAX.DISPLAY.LINES: ""
+    AUTO.OVERRIDES: ""
+    NAU.PROCESSING: ""
+    COMPANY.ACCESS: ""
+    BUSINESS.DAY: ""
+    AUTO.COMP.CHANGE: ""
+    SYS.MSG.SUPPRESS: ""
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    D.SLIP.STYLE.SHEET: ""
+    WEB.VAL.RTN: ""
+    CONFIRM.VERSION: ""
+    PREVIEW.VERSION: ""
+    BROWSER.TOOLBAR: ""
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    FUNCT: ""
+    EXPOSE.DESC: ""
+    CHALL.RESP: ""
+    DEFAULT.ROUTINE: [
+        {
+            DEFAULT.ROUTINE: "MID.IPO.SET.TYPE.DET"
+        }
+        {
+            DEFAULT.ROUTINE: "MID.IPO.CALC.TOT.COST"
+        }
+    ]
+    LINK.ACTIVATION: ""
+    CO.CODE: "EG0010001"
+}

@@ -1,0 +1,19 @@
+import EB_SystemTables_s.*
+
+@Name { HELPTEXT.MENU = MENU.NAME }
+
+HELPTEXT.MENU {
+    MENU.NAME: "MID.REVERSE"
+    APPLICATION: [
+        {
+            APPLICATION: "ENQ ITSS.IPO.TYPE.ORDER.LIST"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Reverse Order"
+                }
+            ]
+        }
+    ]
+    DISPL.APPLICATION: ""
+    CO.CODE: "EG0010001"
+}

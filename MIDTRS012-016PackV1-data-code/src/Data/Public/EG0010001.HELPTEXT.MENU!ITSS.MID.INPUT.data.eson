@@ -1,0 +1,27 @@
+import EB_SystemTables_s.*
+
+@Name { HELPTEXT.MENU = MENU.NAME }
+
+HELPTEXT.MENU {
+    MENU.NAME: "ITSS.MID.INPUT"
+    APPLICATION: [
+        {
+            APPLICATION: "EB.ITSS.MID.IPO.MASTER,IPO"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Create IPO master"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MID.IPO.TYPE.ORDER,IPO"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Create IPO Type Order"
+                }
+            ]
+        }
+    ]
+    DISPL.APPLICATION: ""
+    CO.CODE: "EG0010001"
+}

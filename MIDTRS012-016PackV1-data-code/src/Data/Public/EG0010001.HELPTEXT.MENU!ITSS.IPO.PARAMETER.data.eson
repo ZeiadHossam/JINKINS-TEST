@@ -1,0 +1,59 @@
+import EB_SystemTables_s.*
+
+@Name { HELPTEXT.MENU = MENU.NAME }
+
+HELPTEXT.MENU {
+    MENU.NAME: "ITSS.IPO.PARAMETER"
+    APPLICATION: [
+        {
+            APPLICATION: "EB.CUSTODIAN.UNIFIED.CODE"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Custodian Unified Code"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.COMPANY.INT.ACC.PARAM"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Company Internal Account"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.IPO.PAY.PRODUCT"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "IPO Payment Product"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.PAYMENT.PRODUCT"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Payment Product Values List"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.ITSS.MID.IPO.TYPE"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "IPO type"
+                }
+            ]
+        }
+        {
+            APPLICATION: "EB.IPO.TELLER.TRAN.CODE"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Teller Transaction Parameter"
+                }
+            ]
+        }
+    ]
+    DISPL.APPLICATION: ""
+    CO.CODE: "EG0010001"
+}

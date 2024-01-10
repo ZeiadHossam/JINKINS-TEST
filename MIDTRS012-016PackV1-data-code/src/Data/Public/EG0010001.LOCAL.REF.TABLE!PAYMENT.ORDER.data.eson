@@ -1,0 +1,34 @@
+import EB_LocalReferences_s.*
+
+@Name { LOCAL.REF.TABLE = APPLICATION }
+
+LOCAL.REF.TABLE {
+    APPLICATION: "PAYMENT.ORDER"
+    LOCAL.TABLE.NO: [
+        {
+            LOCAL.TABLE.NO: "L.TXN.TYPE"
+            SUB.ASSOC.CODE: ""
+        }
+        {
+            LOCAL.TABLE.NO: "L.TXN.TYPEE"
+            SUB.ASSOC.CODE: ""
+        }
+        {
+            LOCAL.TABLE.NO: "L.PAYMENT.SELECT"
+            SUB.ASSOC.CODE: ""
+        }
+        {
+            LOCAL.TABLE.NO: "L.SECURITY.REFERENCE"
+            SUB.ASSOC.CODE: ""
+        }
+        {
+            LOCAL.TABLE.NO: "L.SEC.REF"
+            SUB.ASSOC.CODE: ""
+        }
+        {
+            LOCAL.TABLE.NO: "L.IPO.CLIENT.DET"
+            SUB.ASSOC.CODE: ""
+        }
+    ]
+    CO.CODE: "EG0010001"
+}

@@ -1,0 +1,37 @@
+import EB_Service_s.*
+
+@Name { TSA.SERVICE = SERVICE }
+
+TSA.SERVICE {
+    SERVICE: "BNK/ITSS.TRS.REFUND.SERVICE"
+    DESCRIPTION: [
+        {
+            DESCRIPTION: "ATM File records"
+        }
+    ]
+    SERVER.NAME: [
+        {
+            SERVER.NAME: ""
+            WORK.PROFILE: "TWO"
+            SERVER.STATUS: ""
+        }
+    ]
+    USER: "INPUTTER"
+    SERVICE.CONTROL: "STOP"
+    REVIEW.TIME: ""
+    TIME.OUT: ""
+    ATTRIBUTE.TYPE: [
+        {
+            ATTRIBUTE.TYPE: ""
+            ATTRIBUTE.VALUE: ""
+        }
+    ]
+    FREQUENCY: ""
+    CORRELATION.ID: ""
+    STOPPAGE.TIME: ""
+    STOP.COUNT: ""
+    MAX.START.TIME: ""
+    MIN.START.TIME: ""
+    NO.OF.RUNS.PER.DAY: ""
+    CO.CODE: "EG0010001"
+}

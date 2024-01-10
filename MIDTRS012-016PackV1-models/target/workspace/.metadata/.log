@@ -1,0 +1,13 @@
+!SESSION 2023-12-31 00:15:52.463 -----------------------------------------------
+eclipse.buildId=8.0.0.20120704062212I
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.odcgroup.workbench.generation.headless
+Command-line arguments:  -application com.odcgroup.workbench.generation.headless -data C:\DS21\MIDworkspaceMast2\MIDTRS012-016PackV1-models\target\workspace -clean
+
+!ENTRY com.odcgroup.workbench.core 1 0 2023-12-31 00:16:15.277
+!MESSAGE Target Platform selected: 21.0.0.20210426164529 (default version). Available versions found: [].
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-31 00:16:17.796
+!MESSAGE The workspace will exit with unsaved changes in this session.

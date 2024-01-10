@@ -1,0 +1,480 @@
+import EB_SystemTables_s.*
+
+@Name { EB.TABLE.DEFINITION = TABLE.ID }
+
+EB.TABLE.DEFINITION {
+    TABLE.ID: "ITSS.MID.IPO.MASTER"
+    ACT.DESC: [
+        {
+            ACT.DESC: "ITSS IPO Master"
+        }
+    ]
+    PRODUCT: "EB"
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "IPO.TYPE"
+            DESCRIPTION: "IPO Type"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: "40"
+            MIN.CHAR: ""
+            DATA.TYPE: ""
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: "EB.ITSS.MID.IPO.TYPE"
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "INITIAL.IPO.ID"
+            DESCRIPTION: "Initial IPO Id"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.COMPANY.UNIFIED.CODE"
+            DESCRIPTION: "IPO Company Uni Code"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "COMPANY.NAME"
+            DESCRIPTION: "Company Name"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "COMPANY.ACCOUNT"
+            DESCRIPTION: "Company Account"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: "35"
+            MIN.CHAR: ""
+            DATA.TYPE: ""
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: "ACCOUNT"
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.SHARE.PRICE"
+            DESCRIPTION: "IPO share price"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "AMOUNT"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.START.DATE"
+            DESCRIPTION: "IPO Start Date"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "DATE"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.END.DATE"
+            DESCRIPTION: "IPO End Date"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "DATE"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.ISSUE.SIZE"
+            DESCRIPTION: "IPO Issue Size"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "REFUND.DATE"
+            DESCRIPTION: "Refund Date"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "DATE"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+    ]
+    PREFIX: "EB.ITS60"
+    FILE.TYPE: "CUS"
+    LINK.TO.WFL: ""
+    NS.OPERATION: ""
+    KEY.FIELD: ""
+    INSERT.LAYOUT: ""
+    ADD.SPECIAL.FIELDS: [
+        {
+            ADD.SPECIAL.FIELDS: ""
+        }
+    ]
+    CLASS.TYPE: ""
+    RULE.NAME: [
+        {
+            RULE.NAME: ""
+            RULE: [
+                {
+                    RULE: ""
+                }
+            ]
+        }
+    ]
+    PGM.TYPE: ""
+    TABLE.OWNER: ""
+    CO.CODE: "EG0010001"
+}

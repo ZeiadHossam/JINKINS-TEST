@@ -1,0 +1,524 @@
+import EB_SystemTables_s.*
+
+@Name { EB.TABLE.DEFINITION = TABLE.ID }
+
+EB.TABLE.DEFINITION {
+    TABLE.ID: "ITSS.CLIENTS.IPO.ORDERS.DETAILS"
+    ACT.DESC: [
+        {
+            ACT.DESC: "ITSS MID PER CLIENT IPO ORD DETAILS"
+        }
+    ]
+    PRODUCT: "EB"
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "CUSTOMER.UNIFIED.CODE"
+            DESCRIPTION: "Customer Unified Code"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "IPO.ORDER.DETAILS"
+            DESCRIPTION: "IPO Order Details"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CUSTOMER.NAME"
+            DESCRIPTION: "Customer Name"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: "XX.LL."
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "NATIONALITY"
+            DESCRIPTION: "Nationality"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "NUMBER.OF.SHARES"
+            DESCRIPTION: "Number Of Shares"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "ALLOCATED.NUMBER.SHARES"
+            DESCRIPTION: "Allocated Number Of Shares"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: "20"
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "ROUNDED.NUMBER.SHARES"
+            DESCRIPTION: "Rounded Number Of Shares"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "NUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: "21"
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "CUSTODIAN.UNIFIED.CODE"
+            DESCRIPTION: "Custodian Unified Code"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "INTERNAL.ACCOUNT.NUMBER"
+            DESCRIPTION: "Internal Account Number"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "FINAL.NOM.SHARES"
+            DESCRIPTION: "Final nominal of shares"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+        {
+            FIELD.NAME: "REFUNDED.AMOUNT"
+            DESCRIPTION: "Refunded Amount"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+    ]
+    PREFIX: "EB.ITS39"
+    FILE.TYPE: "CUS"
+    LINK.TO.WFL: ""
+    NS.OPERATION: ""
+    KEY.FIELD: ""
+    INSERT.LAYOUT: ""
+    ADD.SPECIAL.FIELDS: [
+        {
+            ADD.SPECIAL.FIELDS: ""
+        }
+    ]
+    CLASS.TYPE: ""
+    RULE.NAME: [
+        {
+            RULE.NAME: ""
+            RULE: [
+                {
+                    RULE: ""
+                }
+            ]
+        }
+    ]
+    PGM.TYPE: ""
+    TABLE.OWNER: ""
+    CO.CODE: "EG0010001"
+}

@@ -1,0 +1,376 @@
+import EB_Reports_s.*
+
+@Name { ENQUIRY = ENQUIRY }
+
+ENQUIRY {
+    ENQUIRY: "EB.ITSS.IPO.ORD.DET.ENQ"
+    PAGE.SIZE: "4,20"
+    FILE.NAME: "EB.ITSS.IPO.ORDERS.DETAILS"
+    FIXED.SELECTION: [
+        {
+            FIXED.SELECTION: ""
+        }
+    ]
+    FIXED.SORT: [
+        {
+            FIXED.SORT: ""
+        }
+    ]
+    OPEN.BRACKET: [
+        {
+            OPEN.BRACKET: ""
+            SELECTION.FLDS: ""
+            SEL.LABEL: [
+                {
+                    SEL.LABEL: ""
+                }
+            ]
+            SEL.FLD.OPER: ""
+            REQUIRED.SEL: ""
+            CLOSE.BRACKET: ""
+            REL.NEXT.FIELD: ""
+        }
+    ]
+    BUILD.ROUTINE: [
+        {
+            BUILD.ROUTINE: ""
+        }
+    ]
+    HEADER: [
+        {
+            HEADER: [
+                {
+                    HEADER: ""
+                }
+            ]
+        }
+    ]
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "@ID"
+            OPERATION: [
+                {
+                    OPERATION: "@ID"
+                }
+            ]
+            COLUMN: "1"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "IPO.END.DATE"
+            OPERATION: [
+                {
+                    OPERATION: "IPO.END.DATE"
+                }
+            ]
+            COLUMN: "2"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "SMALLER.INVESTOR.RULE"
+            OPERATION: [
+                {
+                    OPERATION: "SMALLER.INVESTOR.RULE"
+                }
+            ]
+            COLUMN: "3"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "TOTAL.REQUESTED.SHARES"
+            OPERATION: [
+                {
+                    OPERATION: "TOTAL.REQUESTED.SHARES"
+                }
+            ]
+            COLUMN: "7"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "OFFERED.FOR.SUBSCRIPTION"
+            OPERATION: [
+                {
+                    OPERATION: "OFFERED.FOR.SUBSCRIPTION"
+                }
+            ]
+            COLUMN: "10"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "PERCENTAGE.ALLOCATION"
+            OPERATION: [
+                {
+                    OPERATION: "PERCENTAGE.ALLOCATION"
+                }
+            ]
+            COLUMN: "15"
+            LENGTH.MASK: ""
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+    ]
+    ENQUIRY.NAME: [
+        {
+            ENQUIRY.NAME: "EB.ITSS.CLIENTS.IPO.ORD.DET.ENQ"
+            SEL.CRIT: [
+                {
+                    SEL.CRIT: "IPO.ORDER.DETAILS EQ @ID"
+                }
+            ]
+            LABEL.FIELD: "@ID 1"
+            NXT.DESC: [
+                {
+                    NXT.DESC: "Details[action.gif"
+                }
+            ]
+        }
+    ]
+    SMS.APPLICATION: [
+        {
+            SMS.APPLICATION: ""
+            SMS.ID: ""
+        }
+    ]
+    SMS.ABORT: ""
+    USE.FIELD.NUMBERS: ""
+    CUSTOMER.NO.FLD: ""
+    ACCOUNT.NO.FLD: ""
+    SPOOL.BRK.FLD: [
+        {
+            SPOOL.BRK.FLD: ""
+        }
+    ]
+    DESCRIPT: [
+        {
+            DESCRIPT: [
+                {
+                    DESCRIPT: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    PRODUCT: ""
+    SHORT.DESC: [
+        {
+            SHORT.DESC: ""
+        }
+    ]
+    REAL.TIME.FILES: [
+        {
+            REAL.TIME.FILES: ""
+        }
+    ]
+    COMPANY.SELECT: ""
+    COMP.FOR.ENQ: [
+        {
+            COMP.FOR.ENQ: ""
+        }
+    ]
+    TARGET.APPLICATION: ""
+    ENQUIRY.GRAPH.ID: [
+        {
+            ENQUIRY.GRAPH.ID: ""
+        }
+    ]
+    TOOL.ID: [
+        {
+            TOOL.ID: ""
+            TOOL.TEXT: [
+                {
+                    TOOL.TEXT: ""
+                }
+            ]
+            TOOL.ITEM: [
+                {
+                    TOOL.ITEM: ""
+                }
+            ]
+        }
+    ]
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    EXPOSE.DESC: ""
+    TOOLBAR: ""
+    FILE.VERSION: [
+        {
+            FILE.VERSION: ""
+        }
+    ]
+    POPUP.DROPDOWN.FLD: [
+        {
+            POPUP.DROPDOWN.FLD: ""
+        }
+    ]
+    NO.MANDATORY.SELECTION: ""
+    CO.CODE: "EG0010001"
+}

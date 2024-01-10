@@ -1,0 +1,209 @@
+import EB_Versions_s.*
+
+@Name { VERSION = PGM.NAME.VERSION }
+
+VERSION {
+    PGM.NAME.VERSION: "EB.ITSS.MID.IPO.MASTER,"
+    PRINT.ONLY: ""
+    RECORDS.PER.PAGE: "1"
+    FIELDS.PER.LINE: "1"
+    LANGUAGE.CODE: [
+        {
+            LANGUAGE.CODE: ""
+        }
+    ]
+    "HDR.1.001..039": [
+        {
+            "HDR.1.001..039": ""
+            "HDR.1.040..078": ""
+            "HDR.1.079..117": ""
+            "HDR.1.118..132": ""
+            "HDR.2.001..039": ""
+            "HDR.2.040..078": ""
+            "HDR.2.079..117": ""
+            "HDR.2.118..132": ""
+        }
+    ]
+    FIELD.NO: [
+        {
+            FIELD.NO: ""
+            COLUMN: ""
+            EXPANSION: ""
+            TEXT.CHAR.MAX: ""
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+    ]
+    RIGHT.ADJ.FIELD: [
+        {
+            RIGHT.ADJ.FIELD: ""
+        }
+    ]
+    REF.NO.IN.1ST.LINE: ""
+    ID.AUTOM.SEQU: [
+        {
+            ID.AUTOM.SEQU: ""
+        }
+    ]
+    NO.OF.AUTH: "0"
+    NOINPUT.FIELD: [
+        {
+            NOINPUT.FIELD: ""
+        }
+    ]
+    NOCHANGE.FIELD: [
+        {
+            NOCHANGE.FIELD: ""
+        }
+    ]
+    REKEY.FIELD.NO: [
+        {
+            REKEY.FIELD.NO: ""
+        }
+    ]
+    AUTOM.FIELD.NO: [
+        {
+            AUTOM.FIELD.NO: ""
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: ""
+        }
+    ]
+    MANDATORY.FIELD: [
+        {
+            MANDATORY.FIELD: ""
+        }
+    ]
+    VALIDATION.FLD: [
+        {
+            VALIDATION.FLD: ""
+            VALIDATION.RTN: ""
+        }
+    ]
+    D.SLIP.FORMAT: [
+        {
+            D.SLIP.FORMAT: ""
+            D.SLIP.FUNCTION: ""
+        }
+    ]
+    D.SLIP.TRIGGER: ""
+    INPUT.ROUTINE: [
+        {
+            INPUT.ROUTINE: "MID.IPO.VAL.START.END"
+        }
+    ]
+    AUTH.ROUTINE: [
+        {
+            AUTH.ROUTINE: "MID.ENDDATE.OFFERSUB"
+        }
+    ]
+    REPORT.LOCKS: "YES"
+    GTS.CONTROL: ""
+    DESCRIPTION: [
+        {
+            DESCRIPTION: ""
+        }
+    ]
+    ASSOC.VERSION: [
+        {
+            ASSOC.VERSION: "EB.ITSS.MID.IPO.MASTER,AUDIT"
+        }
+    ]
+    NEXT.VERSION: ""
+    INITIAL.CURSOR.POS: ""
+    CAPTION: [
+        {
+            CAPTION: ""
+        }
+    ]
+    EXC.INC.RTN: ""
+    ID.RTN: [
+        {
+            ID.RTN: ""
+        }
+    ]
+    CHECK.REC.RTN: [
+        {
+            CHECK.REC.RTN: ""
+        }
+    ]
+    AFTER.UNAU.RTN: [
+        {
+            AFTER.UNAU.RTN: ""
+        }
+    ]
+    BEFORE.AUTH.RTN: [
+        {
+            BEFORE.AUTH.RTN: ""
+        }
+    ]
+    VERSION.TYPE: ""
+    ENABLE.GRID: ""
+    MAX.DISPLAY.LINES: ""
+    AUTO.OVERRIDES: ""
+    NAU.PROCESSING: ""
+    COMPANY.ACCESS: ""
+    BUSINESS.DAY: ""
+    AUTO.COMP.CHANGE: ""
+    SYS.MSG.SUPPRESS: ""
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    D.SLIP.STYLE.SHEET: ""
+    WEB.VAL.RTN: ""
+    CONFIRM.VERSION: ""
+    PREVIEW.VERSION: ""
+    BROWSER.TOOLBAR: ""
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    FUNCT: ""
+    EXPOSE.DESC: ""
+    CHALL.RESP: ""
+    DEFAULT.ROUTINE: [
+        {
+            DEFAULT.ROUTINE: ""
+        }
+    ]
+    LINK.ACTIVATION: ""
+    CO.CODE: "EG0010001"
+}

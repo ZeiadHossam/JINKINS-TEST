@@ -1,0 +1,84 @@
+import EB_SystemTables_s.*
+
+@Name { EB.TABLE.DEFINITION = TABLE.ID }
+
+EB.TABLE.DEFINITION {
+    TABLE.ID: "CUSTODIAN.UNIFIED.CODE"
+    ACT.DESC: [
+        {
+            ACT.DESC: "CUSTODIAN.UNIFIED.CODE"
+        }
+    ]
+    PRODUCT: "EB"
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "CUSTODIAN.NAME"
+            DESCRIPTION: "Custodian Name"
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            CALCULATION: [
+                {
+                    CALCULATION: ""
+                }
+            ]
+            AVAILABILITY: [
+                {
+                    AVAILABILITY: ""
+                }
+            ]
+            ACTIVITY.ID: ""
+            ACTIVITY.FLD: ""
+            MAX.CHAR: ""
+            MIN.CHAR: ""
+            DATA.TYPE: "ALPHANUMERIC"
+            CCY.ACTIVITY: ""
+            CCY.ACT.FLD: ""
+            VETTING.TABLE: [
+                {
+                    VETTING.TABLE: ""
+                }
+            ]
+            APPL.VET: ""
+            APPL.ENRICH.FLD: ""
+            DEF.VALUE: ""
+            FLD.PROPERTY: ""
+            MASKING.FMT: ""
+            VIRTUAL.TABLE: ""
+            SUB.ASSOC.CODE: ""
+            REL.DATE.FIELD: ""
+            REL.CURRENCY.FIELD: ""
+            FLD.PRODUCT: ""
+            PHYSICAL.POSITION: ""
+            FIELD.OWNER: ""
+        }
+    ]
+    PREFIX: "EB.CUS26"
+    FILE.TYPE: "CUS"
+    LINK.TO.WFL: ""
+    NS.OPERATION: ""
+    KEY.FIELD: ""
+    INSERT.LAYOUT: ""
+    ADD.SPECIAL.FIELDS: [
+        {
+            ADD.SPECIAL.FIELDS: ""
+        }
+    ]
+    CLASS.TYPE: ""
+    RULE.NAME: [
+        {
+            RULE.NAME: ""
+            RULE: [
+                {
+                    RULE: ""
+                }
+            ]
+        }
+    ]
+    PGM.TYPE: ""
+    TABLE.OWNER: ""
+    CO.CODE: "EG0010001"
+}

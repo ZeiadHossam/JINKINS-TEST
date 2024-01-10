@@ -1,0 +1,9 @@
+import EB_Foundation_s.*
+
+@Name { EB.ITSS.MID.IPO.TYPE = DEAL.NO }
+
+EB.ITSS.MID.IPO.TYPE {
+    DEAL.NO: "PUBLIC.IPO.CONFIRMATION"
+    IPO.TYPE: "Public IPO by confirmation"
+    CO.CODE: "EG0010001"
+}

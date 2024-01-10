@@ -1,0 +1,62 @@
+import TT_Config_s.*
+
+@Name { TELLER.TRANSACTION = TELLER.TRANSACTION }
+
+TELLER.TRANSACTION {
+    TELLER.TRANSACTION: "135"
+    DESC: [
+        {
+            DESC: [
+                {
+                    DESC: "IPO Cash Withdrawal Local Currency"
+                }
+            ]
+        }
+    ]
+    SHORT.DESC: [
+        {
+            SHORT.DESC: "Cash Withdrawal LCY"
+        }
+    ]
+    TRANSACTION.CODE.1: "85"
+    CAT.DEPT.CODE.1: "10001"
+    VALID.CURRENCIES.1: "LOCAL"
+    VALID.ACCOUNTS.1: "INTERNAL"
+    CURR.MKT.1: "10"
+    POS.TYPE.1: "TR"
+    VALIDATE.SORT.CODE: ""
+    TRANSACTION.CODE.2: "2"
+    CAT.DEPT.CODE.2: ""
+    VALID.CURRENCIES.2: "ANY"
+    VALID.ACCOUNTS.2: "ANY"
+    CURR.MKT.2: "10"
+    POS.TYPE.2: "TR"
+    DEAL.MARKET: "10"
+    CHARGE.MARKET: "10"
+    SPLIT.CHRG.ENTRIES: "YES"
+    AUTO.DENOMINATE: "NO"
+    DENOM.FILTER: "YES"
+    CR.DENOM.TYPE: "CASH"
+    DR.DENOM.TYPE: ""
+    CHG.TYPE: ""
+    DUPLICATE.CHECK: [
+        {
+            DUPLICATE.CHECK: ""
+        }
+    ]
+    PRINT.ADVICE: "NO"
+    ADVICE.VERSION: [
+        {
+            ADVICE.VERSION: ""
+        }
+    ]
+    TELLER.TRANSFER: "NO"
+    CUST.AC.TRANSFER: "NO"
+    VERIFY.SIGNATURE: "NO"
+    CHARGE.CODE: [
+        {
+            CHARGE.CODE: ""
+        }
+    ]
+    CO.CODE: "EG0010001"
+}

@@ -1,0 +1,27 @@
+import EB_SystemTables_s.*
+
+@Name { HELPTEXT.MENU = MENU.NAME }
+
+HELPTEXT.MENU {
+    MENU.NAME: "ITSS.IPO.ENQUIRIES"
+    APPLICATION: [
+        {
+            APPLICATION: "ENQ ITSS.MID.IPO.TYPE.ORD.ENQ"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Enquiry Include all fields for type of orders"
+                }
+            ]
+        }
+        {
+            APPLICATION: "COS ITSS.MID.IPO.CLIENT.ORD"
+            DESCRIPT: [
+                {
+                    DESCRIPT: "Client Order Details"
+                }
+            ]
+        }
+    ]
+    DISPL.APPLICATION: ""
+    CO.CODE: "EG0010001"
+}

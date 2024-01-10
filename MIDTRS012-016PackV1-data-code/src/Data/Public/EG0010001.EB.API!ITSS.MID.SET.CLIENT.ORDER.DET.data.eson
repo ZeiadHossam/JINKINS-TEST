@@ -1,0 +1,37 @@
+import EB_SystemTables_s.*
+
+@Name { EB.API = KEY }
+
+EB.API {
+    KEY: "ITSS.MID.SET.CLIENT.ORDER.DET"
+    DESCRIPTION: [
+        {
+            DESCRIPTION: "Set Client Order Det"
+        }
+    ]
+    PROTECTION.LEVEL: "FULL"
+    SOURCE.TYPE: "METHOD"
+    JAVA.METHOD: "postUpdateRequest"
+    JAVA.CLASS: "SetClientOrderDet"
+    JAVA.PACKAGE: "itss.mid.ipo"
+    PARAMETER: [
+        {
+            PARAMETER: ""
+            PARAM.DESCRIPTION: ""
+            PARAM.MANDATORY: ""
+        }
+    ]
+    HOOK.DESCRIPTION: [
+        {
+            HOOK.DESCRIPTION: ""
+            HOOK.COMPONENT: ""
+            HOOK.METHOD: ""
+            INVOKE.COMPONENT: ""
+            INVOKE.METHOD: ""
+        }
+    ]
+    COMPONENT: ""
+    METHOD: ""
+    LINK.TO.TEC: ""
+    CO.CODE: "EG0010001"
+}

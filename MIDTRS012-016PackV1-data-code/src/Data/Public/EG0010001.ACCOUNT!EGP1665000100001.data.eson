@@ -1,0 +1,137 @@
+import AC_AccountOpening_s.*
+
+@Name { ACCOUNT = ACCOUNT.NUMBER }
+
+ACCOUNT {
+    ACCOUNT.NUMBER: "EGP1665000100001"
+    CATEGORY: "16650"
+    ACCOUNT.TITLE.1: [
+        {
+            ACCOUNT.TITLE.1: "Acc to test mid"
+        }
+    ]
+    ACCOUNT.TITLE.2: [
+        {
+            ACCOUNT.TITLE.2: ""
+        }
+    ]
+    SHORT.TITLE: [
+        {
+            SHORT.TITLE: "Acc egp"
+        }
+    ]
+    MNEMONIC: "SDFGH"
+    POSITION.TYPE: "TR"
+    CURRENCY: "EGP"
+    CURRENCY.MARKET: "1"
+    ACCOUNT.OFFICER: "4"
+    OTHER.OFFICER: [
+        {
+            OTHER.OFFICER: ""
+        }
+    ]
+    POSTING.RESTRICT: [
+        {
+            POSTING.RESTRICT: ""
+        }
+    ]
+    RECONCILE.ACCT: ""
+    REFERAL.CODE: [
+        {
+            REFERAL.CODE: ""
+        }
+    ]
+    WELCOME.PACK: ""
+    POSTING.REASON: [
+        {
+            POSTING.REASON: ""
+        }
+    ]
+    L.SECTOR: ""
+    L.LAST.ENQ.DATE: ""
+    PASSBOOK: "NO"
+    OPENING.DATE: "20220425"
+    LINK.TO.LIMIT: ""
+    LOCKED.WITH.LIMIT: ""
+    ALT.ACCT.TYPE: [
+        {
+            ALT.ACCT.ID: ""
+        }
+        {
+            ALT.ACCT.ID: ""
+        }
+        {
+            ALT.ACCT.ID: ""
+        }
+    ]
+    JOINT.HOLDER: [
+        {
+            JOINT.HOLDER: ""
+            RELATION.CODE: ""
+            JOINT.NOTES: [
+                {
+                    JOINT.NOTES: ""
+                }
+            ]
+        }
+    ]
+    ALLOW.NETTING: "NO"
+    LEDG.RECO.WITH: [
+        {
+            LEDG.RECO.WITH: ""
+        }
+    ]
+    OUR.EXT.ACCT.NO: ""
+    RECO.TOLERANCE: ""
+    STOCK.CONTROL.TYPE: ""
+    SERIAL.NO.FORMAT: ""
+    AUTO.PAY.ACCT: ""
+    ORIG.CCY.PAYMENT: ""
+    AUTO.REC.CCY: [
+        {
+            AUTO.REC.CCY: ""
+        }
+    ]
+    DISPO.OFFICER: ""
+    DISPO.EXEMPT: ""
+    ICA.DISTRIB.RATIO: ""
+    LIQUIDATION.MODE: ""
+    HVT.FLAG: "YES"
+    SINGLE.LIMIT: ""
+    CONTINGENT.INT: ""
+    CREDIT.CHECK: ""
+    AVAILABLE.BAL.UPD: ""
+    CONSOLIDATE.ENT: ""
+    MAX.SUB.ACCOUNT: ""
+    MASTER.ACCOUNT: ""
+    LOCK.INC.THIS.MVMT: ""
+    MANDATE.APPL: [
+        {
+            MANDATE.APPL: ""
+            MANDATE.REG: ""
+            MANDATE.RECORD: ""
+        }
+    ]
+    EVENT: [
+        {
+            EVENT: ""
+            FIELD: [
+                {
+                    FIELD: ""
+                    OPERAND: ""
+                    VALUE: ""
+                }
+            ]
+            REQUEST.ID: ""
+        }
+    ]
+    ACCOUNTING.COMPANY: ""
+    REF.DATA.ITEM: [
+        {
+            REF.DATA.ITEM: ""
+            REF.DATA.VALUE: ""
+        }
+    ]
+    LIMIT.KEY: ""
+    CO.CODE: "EG0010001"
+}

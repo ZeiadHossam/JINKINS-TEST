@@ -1,0 +1,857 @@
+import EB_Reports_s.*
+
+@Name { ENQUIRY = ENQUIRY }
+
+ENQUIRY {
+    ENQUIRY: "ITSS.IPO.TYPE.ORDER.LIST"
+    PAGE.SIZE: "4,20"
+    FILE.NAME: "EB.ITSS.MID.IPO.TYPE.ORDER"
+    FIXED.SELECTION: [
+        {
+            FIXED.SELECTION: ""
+        }
+    ]
+    FIXED.SORT: [
+        {
+            FIXED.SORT: ""
+        }
+    ]
+    OPEN.BRACKET: [
+        {
+            OPEN.BRACKET: ""
+            SELECTION.FLDS: ""
+            SEL.LABEL: [
+                {
+                    SEL.LABEL: ""
+                }
+            ]
+            SEL.FLD.OPER: ""
+            REQUIRED.SEL: ""
+            CLOSE.BRACKET: ""
+            REL.NEXT.FIELD: ""
+        }
+    ]
+    BUILD.ROUTINE: [
+        {
+            BUILD.ROUTINE: ""
+        }
+    ]
+    HEADER: [
+        {
+            HEADER: [
+                {
+                    HEADER: ""
+                }
+            ]
+        }
+    ]
+    FIELD.NAME: [
+        {
+            FIELD.NAME: "@ID"
+            OPERATION: [
+                {
+                    OPERATION: "@ID"
+                }
+            ]
+            COLUMN: "1"
+            LENGTH.MASK: "60L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "DEAL.NO"
+            OPERATION: [
+                {
+                    OPERATION: "DEAL.NO"
+                }
+            ]
+            COLUMN: "2"
+            LENGTH.MASK: "60L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "ITSS.IPO.MASTER"
+            OPERATION: [
+                {
+                    OPERATION: "ITSS.IPO.MASTER"
+                }
+            ]
+            COLUMN: "3"
+            LENGTH.MASK: "35L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "IPO.TYPE"
+            OPERATION: [
+                {
+                    OPERATION: "IPO.TYPE"
+                }
+            ]
+            COLUMN: "4"
+            LENGTH.MASK: "35L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "TRADE.CCY"
+            OPERATION: [
+                {
+                    OPERATION: "TRADE.CCY"
+                }
+            ]
+            COLUMN: "5"
+            LENGTH.MASK: "35L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "BOOKING.DATE"
+            OPERATION: [
+                {
+                    OPERATION: "BOOKING.DATE"
+                }
+            ]
+            COLUMN: "6"
+            LENGTH.MASK: "11R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "COMPANY.ACCOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "COMPANY.ACCOUNT"
+                }
+            ]
+            COLUMN: "7"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "NUMBER.OF.SHARES"
+            OPERATION: [
+                {
+                    OPERATION: "NUMBER.OF.SHARES"
+                }
+            ]
+            COLUMN: "8"
+            LENGTH.MASK: "14R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "CUSTOMER.TYPE"
+            OPERATION: [
+                {
+                    OPERATION: "CUSTOMER.TYPE"
+                }
+            ]
+            COLUMN: "9"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "CUSTOMER.ACCOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "CUSTOMER.ACCOUNT"
+                }
+            ]
+            COLUMN: "10"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "INTERNAL.ACCOUNT"
+            OPERATION: [
+                {
+                    OPERATION: "INTERNAL.ACCOUNT"
+                }
+            ]
+            COLUMN: "11"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "COMPANY.UNIFIED.CODE"
+            OPERATION: [
+                {
+                    OPERATION: "COMPANY.UNIFIED.CODE"
+                }
+            ]
+            COLUMN: "12"
+            LENGTH.MASK: "14R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "CUSTOMER.UNIFIED.CODE"
+            OPERATION: [
+                {
+                    OPERATION: "CUSTOMER.UNIFIED.CODE"
+                }
+            ]
+            COLUMN: "13"
+            LENGTH.MASK: "14R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "NATIONALITY"
+            OPERATION: [
+                {
+                    OPERATION: "NATIONALITY"
+                }
+            ]
+            COLUMN: "14"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "CUSTODIAN.UNIFIED.CODE"
+            OPERATION: [
+                {
+                    OPERATION: "CUSTODIAN.UNIFIED.CODE"
+                }
+            ]
+            COLUMN: "15"
+            LENGTH.MASK: "40R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "TOTAL.COST.OF.SHARES"
+            OPERATION: [
+                {
+                    OPERATION: "TOTAL.COST.OF.SHARES"
+                }
+            ]
+            COLUMN: "16"
+            LENGTH.MASK: "19R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "OVERRIDE"
+            OPERATION: [
+                {
+                    OPERATION: "OVERRIDE"
+                }
+            ]
+            COLUMN: "17"
+            LENGTH.MASK: "35R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "M"
+        }
+        {
+            FIELD.NAME: "RECORD.STATUS"
+            OPERATION: [
+                {
+                    OPERATION: "RECORD.STATUS"
+                }
+            ]
+            COLUMN: "18"
+            LENGTH.MASK: "4R"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+        {
+            FIELD.NAME: "PAYMENT.ORDER.REVERSE"
+            OPERATION: [
+                {
+                    OPERATION: "PAYMENT.ORDER.REVERSE"
+                }
+            ]
+            COLUMN: "19"
+            LENGTH.MASK: "35L"
+            CONVERSION: [
+                {
+                    CONVERSION: ""
+                }
+            ]
+            COMMENTS: [
+                {
+                    COMMENTS: ""
+                }
+            ]
+            TYPE: ""
+            DISPLAY.BREAK: ""
+            FIELD.LBL: [
+                {
+                    FIELD.LBL: ""
+                }
+            ]
+            FIELD.DISP.TYPE: ""
+            SECTION: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+            TARGET.FIELD: ""
+            COL.WIDTH: ""
+            SINGLE.MULTI: "S"
+        }
+    ]
+    ENQUIRY.NAME: [
+        {
+            ENQUIRY.NAME: "EB.ITSS.MID.IPO.TYPE.ORDER,REVERSE R @ID"
+            SEL.CRIT: [
+                {
+                    SEL.CRIT: ""
+                }
+            ]
+            LABEL.FIELD: "@ID 1"
+            NXT.DESC: [
+                {
+                    NXT.DESC: "Reverse[txnreverse.gif"
+                }
+            ]
+        }
+    ]
+    SMS.APPLICATION: [
+        {
+            SMS.APPLICATION: ""
+            SMS.ID: ""
+        }
+    ]
+    SMS.ABORT: ""
+    USE.FIELD.NUMBERS: ""
+    CUSTOMER.NO.FLD: ""
+    ACCOUNT.NO.FLD: ""
+    SPOOL.BRK.FLD: [
+        {
+            SPOOL.BRK.FLD: ""
+        }
+    ]
+    DESCRIPT: [
+        {
+            DESCRIPT: [
+                {
+                    DESCRIPT: ""
+                }
+            ]
+        }
+    ]
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    PRODUCT: ""
+    SHORT.DESC: [
+        {
+            SHORT.DESC: ""
+        }
+    ]
+    REAL.TIME.FILES: [
+        {
+            REAL.TIME.FILES: ""
+        }
+    ]
+    COMPANY.SELECT: ""
+    COMP.FOR.ENQ: [
+        {
+            COMP.FOR.ENQ: ""
+        }
+    ]
+    TARGET.APPLICATION: ""
+    ENQUIRY.GRAPH.ID: [
+        {
+            ENQUIRY.GRAPH.ID: ""
+        }
+    ]
+    TOOL.ID: [
+        {
+            TOOL.ID: ""
+            TOOL.TEXT: [
+                {
+                    TOOL.TEXT: ""
+                }
+            ]
+            TOOL.ITEM: [
+                {
+                    TOOL.ITEM: ""
+                }
+            ]
+        }
+    ]
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    EXPOSE.DESC: ""
+    TOOLBAR: ""
+    FILE.VERSION: [
+        {
+            FILE.VERSION: ""
+        }
+    ]
+    POPUP.DROPDOWN.FLD: [
+        {
+            POPUP.DROPDOWN.FLD: ""
+        }
+    ]
+    NO.MANDATORY.SELECTION: ""
+    CO.CODE: "EG0010001"
+}
