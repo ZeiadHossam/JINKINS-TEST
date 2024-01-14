@@ -1,0 +1,957 @@
+import EB_Versions_s.*
+
+@Name { VERSION = PGM.NAME.VERSION }
+
+VERSION {
+    PGM.NAME.VERSION: "SEC.TRADE,ITSS.MID.SELL.OWN.SEC.TBILLS"
+    PRINT.ONLY: ""
+    RECORDS.PER.PAGE: "1"
+    FIELDS.PER.LINE: "MULTI"
+    LANGUAGE.CODE: [
+        {
+            LANGUAGE.CODE: "1"
+        }
+    ]
+    "HDR.1.001..039": [
+        {
+            "HDR.1.001..039": "Own Book Sell Tbills"
+            "HDR.1.040..078": ""
+            "HDR.1.079..117": ""
+            "HDR.1.118..132": ""
+            "HDR.2.001..039": ""
+            "HDR.2.040..078": ""
+            "HDR.2.079..117": ""
+            "HDR.2.118..132": ""
+        }
+    ]
+    FIELD.NO: [
+        {
+            FIELD.NO: "SECURITY.CODE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Security number"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: "35"
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: "Identifies the Security being Traded."
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "STOCK.EXCHANGE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Stock exchange"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: "10"
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: "The Stock Exchange the Security is traded on."
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: "NODISPLAY"
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "TRADE.CCY"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Trade currency"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: "35"
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: "The Currency in which the Trade will be settled"
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "TRADE.DATE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Trade date"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: "The date the trade is made on"
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "VALUE.DATE"
+            COLUMN: "50"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Value date"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: "35"
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: "Date on which the Trade is effected"
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "BOOK.KEEPER"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Book Keeper"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: "NUMERIC"
+                }
+            ]
+        }
+        {
+            FIELD.NO: "TENOR"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Tenor"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "COUNTERPARTY"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Counter Party"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "BROKER"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Broker"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "UNIFIED.CODE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Unified Code"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: "NUMERIC"
+                }
+            ]
+        }
+        {
+            FIELD.NO: "PAPER.TYPE"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: "Paper Type"
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: ""
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.TAX.AMOUNT"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Tax Amount"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.SEC.REF"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Security Ref"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.DAILY.ACC.AMT"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Daily Accrual Amount"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.CAPITAL.GAIN"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Posted Accrual"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.GAIN.TAX"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Gain Tax"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+        {
+            FIELD.NO: "L.SELL.PER"
+            COLUMN: "1"
+            EXPANSION: ""
+            TEXT.CHAR.MAX: "20"
+            TEXT: [
+                {
+                    TEXT: ""
+                    "TXT.040..078": ""
+                    "TXT.079..117": ""
+                    "TXT.118..132": ""
+                }
+            ]
+            ENRICHM.CHAR: ""
+            ENRI.COL: ""
+            PROMPT.COL: ""
+            LAYOUT.TYPE: ""
+            PROMPT.TEXT: [
+                {
+                    PROMPT.TEXT: "Selling Percent"
+                    TOOL.TIP: ""
+                }
+            ]
+            DROP.DOWN: ""
+            ENQ.SELECTION: ""
+            POPUP.CONTROL: ""
+            CASE.CONV: ""
+            HYPERLINK: ""
+            I.LINK: [
+                {
+                    I.LINK: ""
+                }
+            ]
+            ASSOCIATION: ""
+            DISPLAY.TYPE: ""
+            I.DESC: ""
+            ATTRIBS: [
+                {
+                    ATTRIBS: ""
+                }
+            ]
+        }
+    ]
+    RIGHT.ADJ.FIELD: [
+        {
+            RIGHT.ADJ.FIELD: ""
+        }
+    ]
+    REF.NO.IN.1ST.LINE: ""
+    ID.AUTOM.SEQU: [
+        {
+            ID.AUTOM.SEQU: ""
+        }
+    ]
+    NO.OF.AUTH: "1"
+    NOINPUT.FIELD: [
+        {
+            NOINPUT.FIELD: "BROKER.TYPE"
+        }
+        {
+            NOINPUT.FIELD: "BR.TRANS.CODE"
+        }
+        {
+            NOINPUT.FIELD: "CUST.TRANS.CODE"
+        }
+        {
+            NOINPUT.FIELD: "UNIFIED.CODE"
+        }
+    ]
+    NOCHANGE.FIELD: [
+        {
+            NOCHANGE.FIELD: ""
+        }
+    ]
+    REKEY.FIELD.NO: [
+        {
+            REKEY.FIELD.NO: ""
+        }
+    ]
+    AUTOM.FIELD.NO: [
+        {
+            AUTOM.FIELD.NO: "SECURITY.CODE"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "SC.TRADING.POSITION>SECURITY.CODE"
+        }
+        {
+            AUTOM.FIELD.NO: "BROKER.TYPE-1"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "BROKER"
+        }
+        {
+            AUTOM.FIELD.NO: "BR.TRANS.CODE-1"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "BUY"
+        }
+        {
+            AUTOM.FIELD.NO: "CUST.TRANS.CODE-1"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "SEL"
+        }
+        {
+            AUTOM.FIELD.NO: "CASH.HOLD.SETTLE"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "NO"
+        }
+        {
+            AUTOM.FIELD.NO: "SEC.HOLD.SETTLE"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "NO"
+        }
+        {
+            AUTOM.FIELD.NO: "BROKER"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "MID.BANK"
+        }
+        {
+            AUTOM.FIELD.NO: "TRADE.CCY"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "EGP"
+        }
+        {
+            AUTOM.FIELD.NO: "BR.DELIV.INSTR-1"
+            AUT.OLD.CONTENT: ""
+            AUT.NEW.CONTENT: "DAP"
+        }
+    ]
+    MANDATORY.FIELD: [
+        {
+            MANDATORY.FIELD: "BROKER.NO"
+        }
+        {
+            MANDATORY.FIELD: "BR.NO.NOM"
+        }
+        {
+            MANDATORY.FIELD: "BR.PRICE"
+        }
+        {
+            MANDATORY.FIELD: "CUST.NO.NOM"
+        }
+        {
+            MANDATORY.FIELD: "CUST.PRICE"
+        }
+        {
+            MANDATORY.FIELD: "PAPER.TYPE"
+        }
+    ]
+    VALIDATION.FLD: [
+        {
+            VALIDATION.FLD: ""
+            VALIDATION.RTN: ""
+        }
+    ]
+    D.SLIP.FORMAT: [
+        {
+            D.SLIP.FORMAT: ""
+            D.SLIP.FUNCTION: ""
+        }
+    ]
+    D.SLIP.TRIGGER: ""
+    INPUT.ROUTINE: [
+        {
+            INPUT.ROUTINE: ""
+        }
+    ]
+    AUTH.ROUTINE: [
+        {
+            AUTH.ROUTINE: "ITSS.DEC.BILLS.TAX"
+        }
+    ]
+    REPORT.LOCKS: "YES"
+    GTS.CONTROL: ""
+    DESCRIPTION: [
+        {
+            DESCRIPTION: "&Own book SELL"
+        }
+    ]
+    ASSOC.VERSION: [
+        {
+            ASSOC.VERSION: "SEC.TRADE,ITSS.MID.OB.BR.DETS.BILLS"
+        }
+        {
+            ASSOC.VERSION: "SEC.TRADE,ITSS.MID.OB.FB.DETS.BILLS"
+        }
+        {
+            ASSOC.VERSION: "SEC.TRADE,OB.MISC.DETS"
+        }
+        {
+            ASSOC.VERSION: "SEC.TRADE,AUDIT"
+        }
+    ]
+    NEXT.VERSION: ""
+    INITIAL.CURSOR.POS: ""
+    CAPTION: [
+        {
+            CAPTION: ""
+        }
+    ]
+    EXC.INC.RTN: "YES"
+    ID.RTN: [
+        {
+            ID.RTN: ""
+        }
+    ]
+    CHECK.REC.RTN: [
+        {
+            CHECK.REC.RTN: ""
+        }
+    ]
+    AFTER.UNAU.RTN: [
+        {
+            AFTER.UNAU.RTN: ""
+        }
+    ]
+    BEFORE.AUTH.RTN: [
+        {
+            BEFORE.AUTH.RTN: ""
+        }
+    ]
+    VERSION.TYPE: ""
+    ENABLE.GRID: ""
+    MAX.DISPLAY.LINES: ""
+    AUTO.OVERRIDES: ""
+    NAU.PROCESSING: ""
+    COMPANY.ACCESS: ""
+    BUSINESS.DAY: ""
+    AUTO.COMP.CHANGE: ""
+    SYS.MSG.SUPPRESS: ""
+    ATTRIBUTES: [
+        {
+            ATTRIBUTES: ""
+        }
+    ]
+    D.SLIP.STYLE.SHEET: ""
+    WEB.VAL.RTN: ""
+    CONFIRM.VERSION: ""
+    PREVIEW.VERSION: ""
+    BROWSER.TOOLBAR: ""
+    EXPOSE: ""
+    SERVICE: [
+        {
+            SERVICE: ""
+        }
+    ]
+    ACTIVITY: ""
+    FUNCT: ""
+    EXPOSE.DESC: ""
+    CHALL.RESP: ""
+    DEFAULT.ROUTINE: [
+        {
+            DEFAULT.ROUTINE: "ITSS.MID.UNIFIED.CODE.TRADE"
+        }
+        {
+            DEFAULT.ROUTINE: "ITSS.SET.BILLS.TAX.AMOUNT"
+        }
+    ]
+    LINK.ACTIVATION: ""
+    CO.CODE: "EG0010001"
+}

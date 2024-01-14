@@ -1,9 +1,0 @@
-import EB_Foundation_s.*
-
-@Name { EB.ITSS.MID.IPO.TYPE = DEAL.NO }
-
-EB.ITSS.MID.IPO.TYPE {
-    DEAL.NO: "IPO.NEGOTIATION.RIGHT.NOT.COVERED"
-    IPO.TYPE: "IPO negotiation right (not Covered)"
-    CO.CODE: "EG0010001"
-}

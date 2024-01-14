@@ -1,9 +1,0 @@
-import EB_Foundation_s.*
-
-@Name { EB.IPO.PAY.PRODUCT = DEAL.NO }
-
-EB.IPO.PAY.PRODUCT {
-    DEAL.NO: "SYSTEM"
-    PAYMENT.PRODUCT: "ACTRF"
-    CO.CODE: "EG0010001"
-}
